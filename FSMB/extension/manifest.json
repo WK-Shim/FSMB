@@ -1,0 +1,17 @@
+{
+    "name": "FSMB 광고 차단기",
+    "description": "Fake SNS Marketing Blocker",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+      "tabs"
+    ],
+    "action": {
+      "default_popup": "FSMBextension.html",
+      "default_icon": "icon.png"
+    },
+    "background": {
+      "service_worker": "./blockedWebsite/background.js"
+    }
+}
+  

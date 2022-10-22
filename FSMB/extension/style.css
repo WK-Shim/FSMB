@@ -1,0 +1,14 @@
+div {
+    align-items: center;
+    text-align: center;
+}
+
+.main {
+    width: 300px;
+}
+
+.title {
+    background-color: yellow;
+    font-size: large;
+    color: red;
+}
